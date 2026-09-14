@@ -1,0 +1,45 @@
+<html>
+<body>
+        <div id = "title">
+            <h1>THE FERVENT NATION GLOBAL</h1> 
+            <P>A Place where Lives are been Transformed...</P>
+            <button onclick="Location()">Location</button>
+        </div>
+</body>
+</html>
+
+<style>
+    body {
+        background-color: whitesmoke;
+        background-image: url("https://pbs.twimg.com/media/GkJKPrkWQAArm7v.jpg");
+        background-size: cover;
+    }
+    h1 {
+            color: white;
+            font-size: 60px;
+    }
+    p {
+        color: white;
+        font-size: 25px;
+    }
+    button:hover {
+            background-color: red;
+            cursor: pointer;
+            font-size: 20px;
+    }
+    #title {
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+    }
+</style>
+
+<script>
+    function Location() {
+        document.body.style.background = 'url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9uenl1dnY3OGc2cjc3dW10OWMwZnp0YnhreHFrN2EyN3h0bTFkbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/FSH4Ks5VNSESzcLYgo/giphy.gif")';
+        document.getElementById("title").style.visibility = "hidden";
+
+    }
+
+
+</script>
