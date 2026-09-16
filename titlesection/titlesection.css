@@ -1,6 +1,6 @@
 h1 {
             color: white;
-            font-size: 60px;
+            font-size: 50px;
     }
     p {
         color: white;
@@ -14,4 +14,6 @@ h1 {
     #title {
             text-align: center;
             padding-top: 200px;
+            background-image: url('../Images/adrian-cuj-o_9YmCY0bag-unsplash.jpg');
+            background-position: center top;
     }
