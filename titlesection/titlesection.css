@@ -1,19 +1,23 @@
-h1 {
-            color: white;
-            font-size: 50px;
-    }
-    p {
-        color: white;
-        font-size: 25px;
-    }
-    button:hover {
-            background-color: red;
-            cursor: pointer;
-            font-size: 20px;
-    }
-    #title {
-            text-align: center;
-            padding-top: 200px;
-            background-image: url('../Images/adrian-cuj-o_9YmCY0bag-unsplash.jpg');
-            background-position: center top;
-    }
+:root {
+        --titleSectionPrimaryColor: white;
+}
+#title {
+        color: var(--titleSectionPrimaryColor);
+        text-align: center;
+        padding-top: 200px;
+        background-image: url('../Images/adrian-cuj-o_9YmCY0bag-unsplash.jpg');
+        background-position: center top;
+}
+
+.title-section-button {
+        color: var(--titleSectionPrimaryColor);
+        border: solid var(--titleSectionPrimaryColor) 1px;
+        border-radius: 5px;
+        padding: 15px 20px;
+        background-color: transparent;
+}
+.title-section-button:hover {
+        background-color: blue;
+        cursor: pointer;
+        font-size: 20px;
+}
