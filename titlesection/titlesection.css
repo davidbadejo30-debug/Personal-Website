@@ -9,6 +9,12 @@
         background-image: url('../Images/adrian-cuj-o_9YmCY0bag-unsplash.jpg');
         background-position: center top;
 }
+.title-section-header{
+        margin-bottom: -5px;
+}
+.title-section-sub-title{
+        margin-bottom: 40px;
+}
 
 .title-section-button {
         color: var(--titleSectionPrimaryColor);
