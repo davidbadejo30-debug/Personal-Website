@@ -9,6 +9,10 @@
 .Aboutme-icons{
     font-size: 25px;
     margin-top: 50px;
+    margin-bottom: 30px;
+}
+.Aboutme-icons > a{
+    text-decoration: none;
 }
 .Aboutme-icon{
     margin: 5px;
@@ -18,4 +22,7 @@
 .Aboutme-icon:hover{
     cursor: pointer;
     color: var(--titleSectionTertiaryColor);
+}
+.Aboutme-download-link > a {
+    color: black;
 }
