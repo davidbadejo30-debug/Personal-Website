@@ -14,7 +14,34 @@
     height: min(500px, 57vw);
     border: solid white 2px;
     margin: 100 auto 0 auto;
-    background-image: url('../Images/free-walking-tour-salzburg-WLNdV3xC-fI-unsplash.jpg');
+    background-image: url('../Images/round-table.jpg');
     background-size: cover;
     background-position: center top;
+}
+
+.craps-game-registration-pane{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.craps-registration-input{
+    background: none;
+    border: none;
+    border-bottom: solid white 1px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+.craps-registration-input:focus{
+    outline: 0;
+}
+
+.craps-registration-continue{
+    margin-top: 25px;
+}
+
+.craps-registration-continue:hover{
+    cursor: pointer;
+    font-weight: bold;
 }
